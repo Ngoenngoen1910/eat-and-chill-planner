@@ -1,0 +1,23 @@
+# === Backend (FastAPI) ===
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# === API & Data ===
+geopy==2.4.0
+requests==2.31.0
+# googlemaps  # ❌ Không dùng nữa
+
+# === Frontend (Streamlit) ===
+streamlit==1.29.0
+folium==0.15.0
+streamlit-folium==0.15.1
+
+# === AI Chatbot ===
+ollama==0.1.6
+
+# === Optional: Performance ===
+# redis==5.0.1           # Cache kết quả search
+# python-dotenv==1.0.0   # Quản lý environment variables
+
+# Lưu ý: SerpAPI không cần cài thư viện riêng, chỉ cần requests
